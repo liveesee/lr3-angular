@@ -1,0 +1,16 @@
+.header { margin-bottom: 36px; }
+
+.brand { display: flex; align-items: center; gap: 12px; }
+
+.word {
+  font-family: var(--serif);
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.tagline {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+}

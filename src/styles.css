@@ -1,0 +1,25 @@
+:root {
+  --ink: #11120d;
+  --olive: #565449;
+  --olive-soft: #6f6b5c;
+  --bone: #d8cfbc;
+  --paper: #fffbf4;
+  --like: #8c4a3a;
+  --error: #9b3b2f;
+  --muted: #7a7568;
+  --border: #c9c0ad;
+  --serif: "Cormorant Garamond", "Times New Roman", serif;
+  --sans: "DM Sans", "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+}
+
+button { font: inherit; }
